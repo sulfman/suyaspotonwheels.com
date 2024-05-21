@@ -180,8 +180,7 @@ button:focus{
 }
 
 .top-navbar .navbar-light .navbar-nav .nav-item .nav-link:hover{
-	background: #FFB999 ;
-	color: #000000;
+	color: #FFB999;
 }
 .top-navbar .navbar-light .navbar-nav .nav-item.active .nav-link{
 	background: #FF5000;
