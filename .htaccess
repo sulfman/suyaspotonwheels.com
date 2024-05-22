@@ -1,0 +1,7 @@
+# Enable Rewrite Engine
+RewriteEngine On
+
+# Redirect requests to their .html equivalents
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}.html -f
+RewriteRule ^(.*)$ $1.html [L]
