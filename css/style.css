@@ -423,11 +423,10 @@ button:focus{
 }
 
 .why-text {
-    position: absolute;
     left: 0;
     bottom: -100%;
     right: 0;
-    height: 100%;
+    height: 125px;
     background: rgba(213, 44, 10, 0.388);
     padding: 12px 12px;
     -webkit-transition: all .3s ease;
@@ -435,27 +434,15 @@ button:focus{
 }
 .why-text h4{
 	color: #ffffff;
-	font-size: 24px;
+	font-size: 20px;
 	font-weight: 500;
 	font-family: 'Arbutus Slab', serif;
 }
-.why-text p{
-	color: #ffffff;
-	font-size: 18px;
-	border-bottom: 1px dashed #181422;
-	margin: 0px;
-	padding-bottom: 15px;
-	margin-top: 15px;
-	margin-bottom: 15px;
-}
+
 .why-text h5{
-	font-size: 28px;
+	font-size: 25px;
 	font-weight: 600;
 	color: #ffffff;
-}
-
-.gallery-single:hover .why-text{
-	bottom: 0px;
 }
 
 
