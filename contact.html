@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
  
      <!-- Site Metas -->
-    <title>SuyaSpot on Wheels</title>  
+    <title>SuyaSpotonWheels</title>  
     <meta name="keywords" content="">
     <meta name="description" content="">
     <meta name="author" content="">
@@ -71,15 +71,10 @@
 	<!-- End All Pages -->
 	
 	<!-- Start Contact -->
-	<div class="map-full"></div>
 	<div class="contact-box">
 		<div class="container">
 			<div class="row">
-				<div class="col-lg-12">					
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-lg-12">
+				<div class="col-md-12">
 					<form id="contactForm">
 						<div class="row">
 							<div class="col-md-12">
@@ -96,13 +91,19 @@
 							</div>
 							<div class="col-md-12">
 								<div class="form-group">
+									<input type="number" placeholder="Your Mobile Number" id="mobile" class="form-control" name="name" required data-error="Please enter your Mobile Number">
+									<div class="help-block with-errors"></div>
+								</div> 
+							</div>
+							<div class="col-md-12">
+								<div class="form-group">
 									<select class="custom-select d-block form-control" id="guest" required data-error="Please Select Person">
-									  <option disabled selected>Please Select Person*</option>
-									  <option value="1">1</option>
-									  <option value="2">2</option>
-									  <option value="3">3</option>
-									  <option value="4">4</option>
-									  <option value="5">5</option>
+									  <option disabled selected>Please Select Number of Persons*</option>
+									  <option value="10-20">10-20</option>
+									  <option value="20-30">20-30</option>
+									  <option value="30-40">30-40</option>
+									  <option value="40-50">40-50</option>
+									  <option value="50+">50+</option>
 									</select>
 									<div class="help-block with-errors"></div>
 								</div> 
@@ -156,18 +157,5 @@
 	<script src="js/form-validator.min.js"></script>
     <script src="js/contact-form-script.js"></script>
     <script src="js/custom.js"></script>
-	<script>
-		$('.map-full').mapify({
-			points: [
-				{
-					lat: 43.891442,
-					lng: -78.8369996,
-					marker: true,
-					title: 'Marker title',
-					infoWindow: 'SuyaSpotonWheels'
-				}
-			]
-		});	
-	</script>
 </body>
 </html>
